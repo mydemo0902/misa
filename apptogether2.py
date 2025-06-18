@@ -162,12 +162,12 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.before_first_request
-def init_embedding():
-    global document_chunks
-    print("Loading documents from:", CENTRAL_TEXT_FOLDER)
-    document_chunks = read_all_texts_from_folder(CENTRAL_TEXT_FOLDER)
-    print(f"Total Chunks Loaded: {len(document_chunks)}")
+@app.before_request
+def load_once():
+    if not hasattr(app, 'initialized'):
+        # your init logic
+        print("Initializing...")
+        app.initialized = True
 
 
 
