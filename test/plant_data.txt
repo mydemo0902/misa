@@ -1,0 +1,19 @@
+Coffee estate report for Pathi Patte
+
+Date: 14-02-2025
+
+Total number of plants: 1200
+New saplings planted: 150
+Dead plants removed: 30
+Fertilizer used: Organic compost
+Weather: Sunny and dry
+
+Workers present: 10
+Tasks completed:
+- Weeding in zone A
+- Watering in zone B
+- Fertilizer application in zone C
+
+Notes:
+- Need to monitor pest activity in zone D
+- Schedule next irrigation for 17-02-2025

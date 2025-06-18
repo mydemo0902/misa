@@ -1,0 +1,170 @@
+Journal IMPACT Factor: 9.69 
+International Journal of Computational Engineering and Management (IJCEM) 
+A Peer Reviewed Refereed Multidisciplinary Research Journal 
+ISSN: 2230-7893 
+Vol. 7, No. 1, Nov 2019 
+Bridge Rehabilitation and Retrofitting Techniques 
+Shruthi.K.V 
+Senior Grade Lecturer 
+Department of Civil Engineering 
+DACG (Govt) Polytechnic, Chikkamagaluru, Karnataka-577101  
+Abstract 
+This paper focuses on retrofitting techniques to strengthen distressed structural members and replace damaged 
+strip seal expansion joints in a bridge rehabilitation project in Andhra Pradesh, India. The study examines the 
+effectiveness of shotcreting, grouting, repair mortar, and high-strength micro concrete jacketing in repairing 
+various types of damage. 
+Proper maintenance is crucial to ensure the longevity and performance of bridge structures, as they are highly 
+susceptible to deterioration due to environmental factors and traffic loads. 
+Keywords: Shotcreting, Grouting, Expansion Joints, Bridge repair, Anti-Carbonation Coating 
+1. INTRODUCTION  
+Rehabilitation and retrofitting are essential processes in structural strengthening. Retrofitting focuses on seismic 
+strengthening, while rehabilitation focuses on repairing and strengthening existing concrete structures under 
+gravity loads. Strip seal joints are commonly used in reinforced concrete T-beam cum deck slabs to 
+accommodate moderate movements in medium-span bridges. However, continuous exposure to heavy traffic 
+loads can cause distress in these joints due to factors such as concrete quality, environmental conditions, and 
+inadequate maintenance. This paper discusses the latest retrofitting and repair techniques used in a case study to 
+strengthen structural members and expansion joints of bridges in the Eluru-Anakapalli section of Andhra 
+Pradesh. 
+2. LITERATURE REVIEW 
+Various studies have explored different techniques for bridge maintenance and repair.  
+● Ramyakala et al.investigated crack healing, concrete jacketing, and other procedures for maintaining 
+and repairing bridges affected by adverse weather conditions and poor construction practices.  
+● Yadav (n.d.) emphasized the importance of repair and rehabilitation techniques for structures with 
+flaws and inadequacies.  
+● Ghazal and Mwafy (n.d.) focused on selecting efficient mitigation strategies to modify substandard 
+RC bridges and meet seismic performance requirements. 
+3. OBJECTIVES 
+The primary objective of this study was to address the issues of concrete spalling, honeycombing, voids, and 
+damaged expansion joints observed in bridges in the Eluru-Anakapalli section of Andhra Pradesh. 
+Fig.1: Bridges stretch 
+International Journal of Computational Engineering and Management , Vol. 7, No. 1, Nov  2019              
+140 
+Journal IMPACT Factor: 9.69 
+International Journal of Computational Engineering and Management (IJCEM) 
+A Peer Reviewed Refereed Multidisciplinary Research Journal 
+ISSN: 2230-7893 
+Vol. 7, No. 1, Nov 2019 
+4. RESEARCH METHODOLOGY 
+The research methodology involved a systematic approach to repairing and retrofitting the damaged bridge 
+structures. The process included identifying the location of voids, drilling and fixing PVC nozzles, injecting 
+low-viscous epoxy material, grouting with cement slurry and expanding grout admixture, replacing damaged 
+expansion joints, shotcreting, and applying an anti-carbonation coating. 
+Fig.2: Flow Chart of Repair/Retrofitting Works 
+Specification-1: Shotcreting 
+Shotcreting of piers/abutments and the underside of the deck slab will be done to a thickness of 40-50mm after 
+fixing shear connectors and a 50mm x 50mm geo grid.  Surface preparation involves chipping off all loose, 
+spalling concrete and delaminated shotcrete until sound concrete/shotcrete is exposed. The chipped area will be 
+saturated with water before repair, and all exposed reinforcement will be coated with Zinc Rich Epoxy Primer 
+IPNET RB (from M/s Krishna Conchem). For fixing shear connectors, 14mm diameter holes will be drilled to a 
+50mm depth at 500mm centers.  These holes will be thoroughly cleaned with an air/water jet.  8mm rebar shear 
+connectors will be fixed using polyester resin grout SYSGROUT 657 (from M/s Syscon Resins). A 50mm x 
+50mm geo grid will be tied to the exposed reinforcement/shear connectors, ensuring minimal sagging, 
+especially on the underside of the slab. Before shotcreting, the prepared concrete surface will be wetted. 
+Shotcreting will then be carried out using a mix proportion of 1 part cement, 2 parts sand, 2 parts 6-8mm down 
+aggregate, and 125 gms of polypropylene fibers per bag of cement.  The average thickness will be maintained 
+between 40-50mm. The shotcrete area will be cured for at least 7 days. 
+Specification-2: Epoxy Injection Grouting 
+Treatment of soffit slab cracks will be done using epoxy injection grouting.  First, cracks in the superstructure 
+will be identified, marked, and grooves of 15mm x 15mm will be cut and chipped off using a suitable tool like a 
+marble cutting machine or handheld grinder. The cut groove will be cleaned with an air/water jet and filled with 
+epoxy putty such as SIKADUR 31 (from M/s Sika India Limited) or equivalent. For vertical/overhead 
+applications, silica powder may be added to the Sikadur 31 for desired consistency. Next, 12/14mm diameter 
+holes will be drilled along the crack at 300mm centers, 50-60mm deep, and cleaned. PVC nozzles or packers 
+will be fixed in these holes using epoxy putty/polyester resin grout.  After the epoxy grouting, the nozzles will 
+be cut off level. Holes can be drilled and nozzles fixed simultaneously with groove filling for easier application. 
+Once all nozzles are fixed, epoxy injection grouting will be done using an electrically operated epoxy grout 
+pump with low viscosity epoxy injection grout like EPCOKP250 (from M/s Krishna Conchem) or SIKADUR 
+52 (from M/s Sika India Limited). For vertical cracks, grouting should start from the bottom hole and proceed 
+upwards. 
+Specification-3: Cement Grouting 
+Cement grouting will be applied to the underside of the deck slab/piers/abutments. 14/16mm diameter holes will 
+be drilled at 1000mm centers, especially on the underside of the slab, with additional holes at visible 
+International Journal of Computational Engineering and Management , Vol. 7, No. 1, Nov  2019              
+141 
+Journal IMPACT Factor: 9.69 
+International Journal of Computational Engineering and Management (IJCEM) 
+A Peer Reviewed Refereed Multidisciplinary Research Journal 
+ISSN: 2230-7893 
+Vol. 7, No. 1, Nov 2019 
+honeycombed areas of slabs/piers/abutments. The holes will be 50-75mm deep and cleaned with an air/water 
+jet. 8mm/12mm PVC nozzles will be fixed using quick-setting cement grout. Neat cement grouting will be done 
+through the nozzles using a positive displacement, electrically operated grout pump. An expanding grout 
+admixture, such as CEBEX 100 (from M/s Fosroc chemicals) or INTRAPLAST N200 (from M/s Sika India 
+Ltd), will be mixed into the grout per the manufacturer’s specifications. If shotcreting is also being done, 
+grouting will occur only after the shotcreting is complete. Protruding nozzles will be cut off 24 hours after 
+grouting and finished. For piers/abutments, grouting should start at the bottom and proceed upwards, while for 
+girders, it should start at one end and progress to the other. 
+Specification-4: Expansion Joints 
+Treatment of expansion joints will occur after traffic is diverted to the new bridge, as joint treatment must be 
+synchronized with bearing replacement.  It is recommended that the wearing course (proposed Bitumen 
+Wearing Course) be completed before replacing the expansion joints.  First, a saw cut will be made parallel to 
+the joint, approximately 300mm away from it, down to the main deck slab concrete. The wearing course will be 
+chipped and opened up to 300mm on either side of the joint, and the existing joint will be removed.  Once 
+removed, the joint will be cleaned of debris and dust.  16mm diameter holes will be drilled in 2/3 rows on either 
+side of the joint at 300mm centers, 50-75mm deep. 12mm diameter rebar will be fixed in these holes using 
+polyester resin grout as shear connectors. Reinforcement will be fixed and tied to the shear connectors as per 
+specifications. 
+Fig.3: Fixing Arrangement of Strip Seal Expansion Unit 
+Fixing of New Strip Seal Joint: The new strip seal joint will be leveled and welded to the reinforcement, 
+maintaining the level with the existing wearing course. Concreting will be done using M35 grade concrete after 
+applying an epoxy bonding agent to the old concrete surface. The concrete will be cured for at least 7 days. 
+5. EXECUTION DETAILS 
+The execution of the repair process involved several steps. Loose and spalled concrete was chipped off, and 
+localized spalled regions were repaired using polymer-modified repair mortar. Major delaminated regions were 
+treated with shotcreting after fixing a geo grid. Old damaged strip seal expansion joints were removed, and new 
+joints were fixed with additional reinforcement and micro concrete. 
+Fig.4: Shotcreting of a bridge pier & Grouting of a bridge deck 
+International Journal of Computational Engineering and Management , Vol. 7, No. 1, Nov  2019              
+142 
+Journal IMPACT Factor: 9.69 
+International Journal of Computational Engineering and Management (IJCEM) 
+A Peer Reviewed Refereed Multidisciplinary Research Journal 
+ISSN: 2230-7893 
+Vol. 7, No. 1, Nov 2019 
+Fig.5: Bridge Rehabilitation Process 
+International Journal of Computational Engineering and Management , Vol. 7, No. 1, Nov  2019              
+143 
+Journal IMPACT Factor: 9.69 
+International Journal of Computational Engineering and Management (IJCEM) 
+A Peer Reviewed Refereed Multidisciplinary Research Journal 
+ISSN: 2230-7893 
+Vol. 7, No. 1, Nov 2019 
+First, workers are depicted applying shotcrete to the underside of a bridge deck. This involves spraying a 
+concrete mix at high velocity to repair areas where the original concrete has deteriorated or spalled off. In 
+another section of the bridge, workers are injecting a grout material into cracks and voids in the concrete. This 
+process, known as grouting, fills gaps in the structure and strengthens it.  A worker is then shown smoothing the 
+surface after the grout has been injected, ensuring a level and even finish. Finally, the image illustrates the 
+replacement of an expansion joint. This involves removing the old, damaged joint and preparing the area for a 
+new one.  Reinforcement bars are added to the joint area to provide additional support and strength. The new 
+expansion joint is then installed, allowing the bridge to expand and contract with temperature changes without 
+causing damage to the structure. 
+4. CONCLUSION 
+All the damaged portions of the bridge structural members were repaired and strengthened. Localized spalled 
+regions were treated with repair mortar, while honeycombed areas received epoxy/cement injection grouting. 
+Major delaminated or spalled regions were addressed using shotcreting. Damaged strip seal expansion joints 
+were replaced with new ones, including additional reinforcement and high-grade micro concrete.  The repair and 
+retrofitting process ultimately increased the durability of the bridge structures. 
+REFERENCES: 
+1. Rohit Newale, Yogesh Sartape, Ashish Remane, Shreya Telrandhe, Sachin Vairal, Prof.Girish Joshi, “Structural 
+Audit, Repair and Rehabilitation of Building”, International Journal of Innovative Research in Science, Engineering 
+& Technology, PP. 4679-4693, Vol.6, Issue 3, 2017. 
+2. Modena, C., Tecchio, G., Pellegrino, C., da Porto, F., Zanini, M.A. and Donà, M., 2014. Retrofitting and 
+refurbishment of existing road bridges. Maintenance and safety of aging infrastructure, 10, pp.469-533. 
+3. Jara, J.M., Jara, M., Olmos, B.A. and Padgett, J.E., 2018. Strengthening and Retrofitting of Steel Bridges. 
+Strengthening and Retrofitting of Existing Structures, pp.249-272. 
+4. Modena, C., Tecchio, G., Pellegrino, C., da Porto, F., Donà, M., Zampieri, P. and Zanini, M.A., 2015. Reinforced 
+concrete and masonry arch bridges in seismic areas: typical deficiencies and retrofitting strategies. Structure and 
+Infrastructure Engineering, 11(4), pp.415-442. 
+5. Dissanayake, R. and Bandara, C.S., 2016. Retrofitting of damaged bridges–the sustainable solution. International 
+journal of urban sciences, 20(sup1), pp.50-59. 
+6. Bergamo, O., Russo, G. and Donadello, S., 2014. Retrofitting of the historic Castagnara bridge in Padua, Italy, with 
+fibre reinforced plastic elements. Structural Engineering International, 24(4), pp.532-543. 
+7. Pipinato, A., 2013. Retrofit procedures of bridge networks against seismic actions in Italy. Durability of Bridge 
+Structures, pp.215-228. 
+8. Yadollahi, M., Nazari, R., Spanos, N.J. and Minner, N., 2017. An application of fuzzy factor analysis for 
+sustainable bridge maintenance and retrofit projects. International Journal of Management Science and Engineering 
+Management, 12(4), pp.225-236. 
+9. Morbin, R., Zanini, M.A., Pellegrino, C., Zhang, H. and Modena, C., 2015. A probabilistic strategy for seismic 
+assessment and FRP retrofitting of existing bridges. Bulletin of earthquake Engineering, 13, pp.2411-2428. 
+International Journal of Computational Engineering and Management , Vol. 7, No. 1, Nov  2019              
+144 

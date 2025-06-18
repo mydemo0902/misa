@@ -1,0 +1,20 @@
+Communication Concepts
+
+Sender
+A sender is an individual or a group who has an idea or information which he wants to communicate with others. The sender selects the channel based on factors like nature of the message, the kind of the audience (receiver), and the situation. The sender becomes the source of the message. In the previously given example, the father is the sender.
+
+Message
+It is the encoded idea sent by the sender. The message could be verbal (written or spoken) or non-verbal (such as body movements, gestures, facial expressions, eye contact, tone of voice, etc.). The message in the example is what the father wanted to convey, i.e., 'Reach Tomorrow'.
+
+Encoding
+Translation of an idea into a message by the source is called encoding. The message may be encoded in any combination of mutually understood words, signs, or symbols. The symbols or signs used must be clear to both the sender and the receiver. While encoding a message, one needs to consider what content to include, how the receiver will interpret it, and how it may affect one’s relationship. Thus, encoding is guided by the nature and the purpose of the communication as well as the relationship between the sender and the receiver. Encoding in this example is transcribing the e-mail.
+
+Communication Channel
+This is the means through which the message travels from the source to the receiver. Channels could be either oral or written. However, with the advancement in technology, visual channels are now becoming more common. The standard channels these days include video conferencing, video chat, telephone, etc. Written forms include text messages, memos, letters, reports, e-mails, fax, etc. In the example, the message is sent through an e-mail which is a transmission channel.
+
+Receiver
+The person or group that receives the message is known as the receiver. The receiver is the one who decodes or interprets the message. It is important to note that the meaning of communication is what is interpreted, and not what was intended. Any error on the part of the receiver may make the communication ineffective. In this story, the son is the receiver.
+
+Decoding
+It is the process of deriving meaning from the received message. The message should be worded carefully so that the receiver easily understands it. If the message is encoded while keeping the receiver in mind, it will be easier to decode it. For example, the words and tone you choose to express your thoughts to a friend will be different from what you choose for your parents and teachers. This is because you know they will interpret or receive the message differently. In the example, decoding is son’s interpretation of his father’s e-mail.
+

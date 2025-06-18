@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat with Central Docs</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .chat-box { margin-bottom: 20px; }
+        .result { background: #f4f4f4; padding: 10px; white-space: pre-wrap; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <h2>📚 Chat with Your Text Files</h2>
+    <a href="{{ url_for('logout') }}">Logout</a>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
+    <form method="post" action="{{ url_for('chat') }}">
+        <input type="text" name="query" placeholder="Ask something..." style="width: 80%;" value="{{ query }}">
+        <input type="submit" value="Send">
+    </form>
+
+    {% if answer %}
+        <div class="chat-box">
+            <strong>Q:</strong> {{ query }}<br>
+            <strong>A:</strong>
+            <div class="result">{{ answer }}</div>
+        </div>
+    {% endif %}
+</body>
+</html>

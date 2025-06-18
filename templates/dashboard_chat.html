@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MISA Estate Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f3f3;
+    }
+    header {
+      background-color: #4e342e;
+      color: white;
+      padding: 1rem;
+    }
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .header-container h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      text-align: center;
+      flex-grow: 1;
+    }
+    .header-container button {
+      padding: 6px 12px;
+      background-color: white;
+      color: #4e342e;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .tiles {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 2rem;
+    }
+
+    .tile {
+      background-color: white;
+      width: 250px;
+      height: 250px;
+      margin: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .tile:hover {
+      transform: scale(1.05);
+    }
+
+    .tile img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .section {
+      display: none;
+      padding: 2rem;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .buttons button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #6f4e37;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .buttons button:hover {
+      background-color: #5a3d2e;
+    }
+
+    #ai-chat {
+      max-width: 800px;
+      margin: 3rem auto 5rem;
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    #ai-chat h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    #ai-chat form {
+      display: flex;
+      gap: 10px;
+    }
+
+    #ai-chat input[type="text"] {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    #ai-chat button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #4e342e;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .result {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: #eee;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <button onclick="window.location.href='home.html'">Home</button>
+      <h1>MISA Estate Dashboard</h1>
+      <button onclick="window.location.href='/logout'">Logout</button>
+    </div>
+  </header>
+
+  <div class="tiles">
+    <div class="tile" onclick="showSection('coffee')">
+      <img src="static/coffee.jpg" alt="Coffee">
+      <h3>Coffee</h3>
+    </div>
+    <div class="tile" onclick="showSection('pepper')">
+      <img src="static/pepper.jpg" alt="Pepper">
+      <h3>Pepper</h3>
+    </div>
+    <div class="tile" onclick="showSection('arecanut')">
+      <img src="static/arecanut.jpg" alt="Arecanut">
+      <h3>Arecanut</h3>
+    </div>
+  </div>
+
+  <!-- Ask MISA AI Chat Section -->
+  <div id="ai-chat">
+    <h2>Ask MISA AI</h2>
+    <form id="chat-form">
+      <input type="text" id="query" name="query" placeholder="Type your question here..." required>
+      <button type="submit">Ask</button>
+    </form>
+    <div id="response" class="result"></div>
+  </div>
+
+  <div id="coffee" class="section">
+    <h2>Coffee Section</h2>
+    <!-- Optional: keep or remove this -->
+  </div>
+  <div id="pepper" class="section"><h2>Pepper Section</h2></div>
+  <div id="arecanut" class="section"><h2>Arecanut Section</h2></div>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('.section').forEach(sec => sec.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+    }
+
+    // AI Chat Form
+    document.getElementById('chat-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const query = document.getElementById('query').value;
+      const responseDiv = document.getElementById('response');
+      responseDiv.innerHTML = "Thinking...";
+
+      const res = await fetch('/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: `query=${encodeURIComponent(query)}`
+      });
+
+      const result = await res.text();
+      responseDiv.innerHTML = result;
+    });
+  </script>
+  
+  
+   
+  
+</body>
+</html>

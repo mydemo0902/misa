@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MISA Coffee Estate Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: url("{{ url_for('static', filename='coffee-beans-bg1.jpg') }}") no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-box {
+      background: rgba(255, 255, 255, 0.92);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+      max-width: 350px;
+      width: 100%;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 10px;
+      font-size: 24px;
+      color: #4e342e;
+      font-family: Georgia, serif;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #6f4e37;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .error {
+      color: red;
+      margin-top: 10px;
+    }
+    .forgot-password {
+      margin-top: 15px;
+      display: block;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h1>MISA Coffee Estate</h1>
+    <form method="POST" action="/">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+      {% if error %}
+        <p class="error">{{ error }}</p>
+      {% endif %}
+    </form>
+    <a class="forgot-password" href="{{ url_for('forgot_password') }}">Forgot password?</a>
+  </div>
+</body>
+</html>
