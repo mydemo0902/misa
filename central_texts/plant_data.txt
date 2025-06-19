@@ -21,3 +21,285 @@ Notes:
 Kasi - there were 10 people who did kasi and it covered the area of 1000 plants. But the benchmark for 10 people to do Kasi is 2000 plants. we are lagging here
 
 Weed cutting: One machine weedcutting will take 6hrs to cover 1 acre and per hour cost is 230 rps. When i do the same with manual weed cutting the cost would be much higher and they take 18hrs to complete 1 acre. Machine weedcutting might be bit costlier but it saves time.
+
+
+
+MISA Coffee Estate - Full Patte Information
+============================================================
+
+Patte Name: Pathi Patte
+Extent (Acres): 0.75
+Number of Plants: 359
+----------------------------------------
+Patte Name: Gate Patte
+Extent (Acres): 1.25
+Number of Plants: 434
+----------------------------------------
+Patte Name: BG1
+Extent (Acres): 0.65
+Number of Plants: 153
+----------------------------------------
+Patte Name: BG2
+Extent (Acres): 0.6
+Number of Plants: 263
+----------------------------------------
+Patte Name: 600 GP
+Extent (Acres): 0.5
+Number of Plants: 206
+----------------------------------------
+Patte Name: Kathlekhan Patte
+Extent (Acres): 0.75
+Number of Plants: 310
+----------------------------------------
+Patte Name: Undgal hara
+Extent (Acres): 0.5
+Number of Plants: 273
+----------------------------------------
+Patte Name: Mane Himbhaga
+Extent (Acres): 0.25
+Number of Plants: 150
+----------------------------------------
+Patte Name: Mane Opposite
+Extent (Acres): 0.75
+Number of Plants: 100
+----------------------------------------
+Patte Name: Line Himbhaga
+Extent (Acres): 1.0
+Number of Plants: 387
+----------------------------------------
+Patte Name: 700 GP
+Extent (Acres): 0.5
+Number of Plants: 232
+----------------------------------------
+Patte Name: 200 GP
+Extent (Acres): 0.25
+Number of Plants: 62
+----------------------------------------
+Patte Name: Kalpatte
+Extent (Acres): 0.75
+Number of Plants: 391
+----------------------------------------
+Patte Name: Kalbande Piece
+Extent (Acres): 0.25
+Number of Plants: 165
+----------------------------------------
+Patte Name: Kerekelegade Patte
+Extent (Acres): 1.0
+Number of Plants: 433
+----------------------------------------
+Patte Name: Kichala Marada Patte
+Extent (Acres): 1.0
+Number of Plants: 342
+----------------------------------------
+Patte Name: 1600 Down+up
+Extent (Acres): 1.5
+Number of Plants: 308
+----------------------------------------
+Patte Name: Gobbara Tippe Patte
+Extent (Acres): 0.75
+Number of Plants: 292
+----------------------------------------
+Patte Name: Kasi Patte
+Extent (Acres): 0.75
+Number of Plants: 301
+----------------------------------------
+Patte Name: Gandha da Gida Patte
+Extent (Acres): 0.5
+Number of Plants: 220
+----------------------------------------
+Patte Name: Gandha da Gida Piece
+Extent (Acres): 0.25
+Number of Plants: 50
+----------------------------------------
+Patte Name: KenchegeP
+Extent (Acres): 0.25
+Number of Plants: 23
+----------------------------------------
+Patte Name: Kote vare ( 1 to 4)+KotePatte
+Extent (Acres): 1.5
+Number of Plants: 200
+----------------------------------------
+Patte Name: Havmalgiro Patte
+Extent (Acres): 0.5
+Number of Plants: 254
+----------------------------------------
+Patte Name: Nandimara Patte
+Extent (Acres): 0.5
+Number of Plants: 160
+----------------------------------------
+Patte Name: 300 GP
+Extent (Acres): 0.25
+Number of Plants: 50
+----------------------------------------
+Patte Name: bidrahindina Patte
+Extent (Acres): 0.75
+Number of Plants: 200
+----------------------------------------
+Patte Name: Benki biddro patte
+Extent (Acres): 0.75
+Number of Plants: 200
+----------------------------------------
+Patte Name: 600 GP
+Extent (Acres): 0.5
+Number of Plants: 200
+----------------------------------------
+Patte Name: Karke Maradha Patte
+Extent (Acres): 0.75
+Number of Plants: 300
+----------------------------------------
+Patte Name: 1800
+Extent (Acres): 1.5
+Number of Plants: 525
+----------------------------------------
+Patte Name: Devara Pakkada Patte
+Extent (Acres): 0.75
+Number of Plants: 413
+----------------------------------------
+Patte Name: Devara patte
+Extent (Acres): 0.75
+Number of Plants: 400
+----------------------------------------
+Patte Name: varadhi Jhari
+Extent (Acres): 0.5
+Number of Plants: 455
+----------------------------------------
+Patte Name: Mallanhonda
+Extent (Acres): 2.0
+Number of Plants: 200
+----------------------------------------
+Patte Name: Hale Line
+Extent (Acres): 1.25
+Number of Plants: 348
+----------------------------------------
+Patte Name: Dodali Mara
+Extent (Acres): 0.5
+Number of Plants: 251
+----------------------------------------
+Patte Name: Rudramavana
+Extent (Acres): 0.5
+Number of Plants: 167
+----------------------------------------
+Patte Name: Jhari Patte
+Extent (Acres): 1.25
+Number of Plants: 375
+----------------------------------------
+Patte Name: Sanna Gida
+Extent (Acres): 0.25
+Number of Plants: 54
+----------------------------------------
+Patte Name: Bhagsegundi
+Extent (Acres): 1.0
+Number of Plants: 420
+----------------------------------------
+Patte Name: susheelamma Hare Patte
+Extent (Acres): 0.5
+Number of Plants: 200
+----------------------------------------
+Patte Name: Hangravalli 1(Devarapa Patte)
+Extent (Acres): 1.0
+Number of Plants: 800
+----------------------------------------
+Patte Name: Hangravalli 2
+Extent (Acres): 1.5
+Number of Plants: 1000
+----------------------------------------
+Patte Name: Addike Honda
+Extent (Acres): 0.25
+Number of Plants: 100
+----------------------------------------
+Patte Name: Mallun and Kittuna mane
+Extent (Acres): 0.25
+Number of Plants: 100
+----------------------------------------
+
+
+MISA Coffee Estate Overview
+---------------------------
+The MISA coffee estate is divided into over 40 sub-areas, known locally as "Patte." Each Patte has its own extent in acres and the number of coffee plants planted in that area.
+
+Sample Summary of Patte Details:
+- Pathi Patte: 0.75 acres, 359 plants
+- Gate Patte: 1.25 acres, 434 plants
+- BG1: 0.65 acres, 153 plants
+- BG2: 0.6 acres, 263 plants
+- 600 GP: 0.5 acres, 206 plants
+- Kathlekhan Patte: 0.75 acres, 310 plants
+- ...
+(Total Patte areas: 45+ subplots)
+
+Each Patte is individually managed but follows a common estate-wide seasonal calendar for operations.
+
+
+Monthly Coffee Estate Work Calendar (Jan–Dec)
+---------------------------------------------
+
+🗓️ January
+- Activity: Weeding & Surface Cleaning
+- Labor: 1 worker per 0.5 acre
+- Machines: Brush cutter (if terrain permits)
+
+🗓️ February
+- Activity: First round of manure application (organic)
+- Labor: 2 workers per acre
+- Machines: None
+
+🗓️ March
+- Activity: Irrigation setup / Mulching
+- Labor: 2 workers per acre
+- Machines: Drip pipes (if available)
+
+🗓️ April
+- Activity: Blossom spraying (flowering stage)
+- Labor: 1 sprayer per acre
+- Machines: Motor sprayer or knapsack sprayer
+
+🗓️ May
+- Activity: Berry setting spray / Tipping
+- Labor: 1 worker per acre
+- Machines: Knapsack sprayer
+
+🗓️ June
+- Activity: Pre-monsoon nutrient spray / pruning
+- Labor: 2 workers per acre
+- Machines: Shears / pruners
+
+🗓️ July
+- Activity: Drainage maintenance / Shade regulation
+- Labor: 2 workers per acre
+- Machines: Spade, manual tools
+
+🗓️ August
+- Activity: Manual weeding / mulch topping
+- Labor: 1–2 workers per acre
+- Machines: None
+
+🗓️ September
+- Activity: Fertilizer application (post-monsoon)
+- Labor: 2 workers per acre
+- Machines: None
+
+🗓️ October
+- Activity: Harvest preparations, drying yard cleaning
+- Labor: 1–2 workers per acre
+- Machines: Drying yard tools
+
+🗓️ November
+- Activity: Cherry harvesting begins
+- Labor: 4–5 workers per acre
+- Machines: Harvest baskets, drying beds
+
+🗓️ December
+- Activity: Continue harvesting, initial drying, sorting
+- Labor: 3–4 workers per acre
+- Machines: Pulping unit (if available), drying racks
+
+
+Notes:
+- Labor is calculated per acre and should be scaled as per the area of each Patte.
+- Rainfall, slope, and terrain may influence actual labor and machinery needs.
+- Modern techniques and mechanization can reduce manual effort in select Patte areas.
+
+---------------------------
+End of Summary
+
+
