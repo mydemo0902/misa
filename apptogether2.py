@@ -24,38 +24,59 @@ client = OpenAI(
 document_chunks = []
 vectorizer = None
 chunk_vectors = None
+initialized = False
+
 
 # 1. Read and chunk all documents
 def read_all_texts_from_folder(folder):
     chunks = []
+
+    print(f"📂 Reading from folder: {folder}")
+
+    if not os.path.exists(folder):
+        print(f"❌ Folder does not exist: {folder}")
+        return chunks
+
     for filename in os.listdir(folder):
         filepath = os.path.join(folder, filename)
         text = ""
 
+        print(f"➡️ Found file: {filename}")
+
         try:
-            if filename.endswith(".txt"):
+            if filename.lower().endswith(".txt"):
+                print(f"📄 Reading TXT file: {filename}")
                 with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
                     text = f.read()
+                print(f"✅ Read {len(text)} characters from {filename}")
 
-            elif filename.endswith(".csv"):
+            elif filename.lower().endswith(".csv"):
+                print(f"📊 Reading CSV file: {filename}")
                 df = pd.read_csv(filepath)
                 text = df.to_string(index=False)
 
-            elif filename.endswith(".pdf"):
+            elif filename.lower().endswith(".pdf"):
+                print(f"📘 Reading PDF file: {filename}")
                 doc = fitz.open(filepath)
                 text = "\n".join(page.get_text() for page in doc)
 
-            elif filename.endswith(".docx"):
+            elif filename.lower().endswith(".docx"):
+                print(f"📝 Reading DOCX file: {filename}")
                 doc = docx.Document(filepath)
                 text = "\n".join(p.text for p in doc.paragraphs)
 
         except Exception as e:
-            print(f"Error reading {filename}: {e}")
+            print(f"❗ Error reading {filename}: {e}")
             continue
 
         # Split into 500-character chunks
-        chunks.extend([text[i:i+500] for i in range(0, len(text), 500)])
+        file_chunks = [text[i:i+500] for i in range(0, len(text), 500)]
+        print(f"🔍 Split {filename} into {len(file_chunks)} chunks.")
+        chunks.extend(file_chunks)
+
+    print(f"✅ Total chunks created: {len(chunks)}")
     return chunks
+
 
 # 2. TF-IDF Embedding
 def embed_chunks_tfidf(chunks):
@@ -105,6 +126,16 @@ def dashboard():
 
 @app.route("/chat", methods=["POST"])
 def chat():
+    global initialized, document_chunks
+
+    # Initialize document chunks and embeddings only once
+    if not initialized:
+        print("🔁 Initializing documents and embeddings...")
+        document_chunks = read_all_texts_from_folder(CENTRAL_TEXT_FOLDER)
+        embed_chunks_tfidf(document_chunks)  # or embed_chunks_semantic(document_chunks) if you're using semantic
+        print(f"✅ Loaded {len(document_chunks)} chunks from {CENTRAL_TEXT_FOLDER}")
+        initialized = True
+
     if "username" not in session:
         return "Unauthorized", 401
 
@@ -117,17 +148,17 @@ def chat():
     # Step 2: Initialize or retrieve chat history
     messages = session.get("chat_history", [])
 
-    # Step 3: Add system prompt (optional - only once)
+    # Step 3: Add system prompt (only once)
     if not messages:
         system_prompt = {
             "role": "system",
             "content": (
-                "You are an assistant for MISA Estate. Use provided context to answer user queries."
+                "You are an assistant for MISA Estate. Use the provided context to answer user queries."
             )
         }
         messages.append(system_prompt)
 
-    # Step 4: Add the new user query
+    # Step 4: Add the new user query with context
     full_query = f"""Context:\n{context_text}\n\nUser Query: {query}"""
     messages.append({"role": "user", "content": full_query})
 
@@ -149,6 +180,7 @@ def chat():
 
     return f"<div class='result'>{reply}</div>"
 
+
     
 @app.route("/forgot_password")
 def forgot_password():
@@ -162,12 +194,8 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.before_request
-def load_once():
-    if not hasattr(app, 'initialized'):
-        # your init logic
-        print("Initializing...")
-        app.initialized = True
+
+
 
 
 
