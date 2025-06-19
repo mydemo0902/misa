@@ -17,3 +17,7 @@ Tasks completed:
 Notes:
 - Need to monitor pest activity in zone D
 - Schedule next irrigation for 17-02-2025
+
+Kasi - there were 10 people who did kasi and it covered the area of 1000 plants. But the benchmark for 10 people to do Kasi is 2000 plants. we are lagging here
+
+Weed cutting: One machine weedcutting will take 6hrs to cover 1 acre and per hour cost is 230 rps. When i do the same with manual weed cutting the cost would be much higher and they take 18hrs to complete 1 acre. Machine weedcutting might be bit costlier but it saves time.
