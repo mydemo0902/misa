@@ -217,16 +217,6 @@ MISA Coffee Estate Overview
 ---------------------------
 The MISA coffee estate is divided into over 40 sub-areas, known locally as "Patte." Each Patte has its own extent in acres and the number of coffee plants planted in that area.
 
-Sample Summary of Patte Details:
-- Pathi Patte: 0.75 acres, 359 plants
-- Gate Patte: 1.25 acres, 434 plants
-- BG1: 0.65 acres, 153 plants
-- BG2: 0.6 acres, 263 plants
-- 600 GP: 0.5 acres, 206 plants
-- Kathlekhan Patte: 0.75 acres, 310 plants
-- ...
-(Total Patte areas: 45+ subplots)
-
 Each Patte is individually managed but follows a common estate-wide seasonal calendar for operations.
 
 
